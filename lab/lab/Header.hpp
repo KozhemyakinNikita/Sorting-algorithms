@@ -22,7 +22,9 @@ public:
     void printArray();
     void pushArray();
     
+    void swap(int *a, int *b);
+    void selectionSort();
     
 };
 
-#endif /* Realization_hpp */
+#endif 
