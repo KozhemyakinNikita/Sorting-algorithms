@@ -1,5 +1,5 @@
-## Sorting-algorithms
-# Selection and fast sort algorithms
+# Sorting-algorithms
+## Selection and fast sort algorithms
 Create a Sort class that will contain the implementation of sorts:
 + selection sort; 
 + fast sort; 
