@@ -24,6 +24,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		821DD23429D334A8003533E1 /* sorted5000.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sorted5000.txt; sourceTree = "<group>"; };
+		821DD23529D334A8003533E1 /* sorted500.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sorted500.txt; sourceTree = "<group>"; };
+		821DD23629D334A8003533E1 /* sorted100.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sorted100.txt; sourceTree = "<group>"; };
+		821DD23D29D33697003533E1 /* partSorted5000.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = partSorted5000.txt; sourceTree = "<group>"; };
+		821DD23E29D33697003533E1 /* partSorted500.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = partSorted500.txt; sourceTree = "<group>"; };
+		821DD24029D336F8003533E1 /* partSorted100.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = partSorted100.txt; sourceTree = "<group>"; };
+		821DD24129D33713003533E1 /* backSorted500.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = backSorted500.txt; sourceTree = "<group>"; };
+		821DD24229D33713003533E1 /* backSorted5000.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = backSorted5000.txt; sourceTree = "<group>"; };
+		821DD24329D33713003533E1 /* backSorted100.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = backSorted100.txt; sourceTree = "<group>"; };
 		826196F929A402DF00657A8F /* lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab; sourceTree = BUILT_PRODUCTS_DIR; };
 		826196FC29A402DF00657A8F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8261970329A4032D00657A8F /* Realization.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Realization.cpp; sourceTree = "<group>"; };
@@ -41,6 +50,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		821DD23729D334DC003533E1 /* SortedNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				821DD23629D334A8003533E1 /* sorted100.txt */,
+				821DD23529D334A8003533E1 /* sorted500.txt */,
+				821DD23429D334A8003533E1 /* sorted5000.txt */,
+			);
+			path = SortedNumbers;
+			sourceTree = "<group>";
+		};
+		821DD23B29D335C1003533E1 /* BackSortedNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				821DD24329D33713003533E1 /* backSorted100.txt */,
+				821DD24129D33713003533E1 /* backSorted500.txt */,
+				821DD24229D33713003533E1 /* backSorted5000.txt */,
+			);
+			path = BackSortedNumbers;
+			sourceTree = "<group>";
+		};
+		821DD23F29D3369F003533E1 /* PartSortedNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				821DD24029D336F8003533E1 /* partSorted100.txt */,
+				821DD23E29D33697003533E1 /* partSorted500.txt */,
+				821DD23D29D33697003533E1 /* partSorted5000.txt */,
+			);
+			path = PartSortedNumbers;
+			sourceTree = "<group>";
+		};
 		826196F029A402DF00657A8F = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +102,9 @@
 				826196FC29A402DF00657A8F /* main.cpp */,
 				8261970329A4032D00657A8F /* Realization.cpp */,
 				8261970429A4032D00657A8F /* Header.hpp */,
+				821DD23F29D3369F003533E1 /* PartSortedNumbers */,
+				821DD23B29D335C1003533E1 /* BackSortedNumbers */,
+				821DD23729D334DC003533E1 /* SortedNumbers */,
 			);
 			path = lab;
 			sourceTree = "<group>";
